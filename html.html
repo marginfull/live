@@ -1,0 +1,153 @@
+
+<html>
+<head>
+<title>
+HTML  and JavaScript tester
+</title>
+<script>
+
+var myWindow;
+
+function makeWindow(text){
+  //NOTE:  no spaces in the second parameter string!!!
+  myWindow = window.open("","myWindow");
+  myWindow.document.write(text);
+  myWindow.document.close();
+} // end makeWindow
+
+function makeDefault(){
+  // load standard HTML5 boilerplate
+
+  var output = "";
+  output += '<!DOCTYPE HTML> \n';
+  output += '<html lang = "en-us"> \n';
+  output += '<head> \n';
+  output += '  <title></title> \n';
+  output += '  <meta charset = "utf-8" /> \n';
+  output += '</head> \n';
+  output += '<body> \n';
+  output += ' \n';
+  output += '</body> \n';
+  output += '</html> \n';
+
+  var txtInput = document.getElementById('txtInput');
+  txtInput.innerHTML = output;
+} // end makeDefault
+
+</script>
+</head>
+
+<body bgColor = "White">
+<center>
+<form name = "myForm" >
+<h1>HTML / JavaScript tester</h1>
+<hr>
+<!--
+<select name = "selPage">
+  <option value = null>
+  <option value = /home/ajharris/public_html/webDesign/html/standard.html>
+    standard HTML skeleton
+   
+ 
+
+</select>
+<input type = submit 
+       value = "Get source code">
+<br>
+-->
+<button type = "button"
+        onClick = "makeDefault()">
+  default HTML5 source code
+</button>
+
+<input type = "button"
+       value = "show the output"
+       onClick = makeWindow(window.document.myForm.txtInput.value)>
+
+
+<br>
+Type in some HTML below...
+<br>
+<font size = 7>
+<textArea name = txtInput
+          id = "txtInput"
+          rows = 100
+          cols = 80>
+
+
+
+<!DOCTYPE html><html><head>
+<style>div a img{visibility:hidden;}body{margin:0;background-color: black;}</style>
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<meta name="referrer" content="no-referrer" />
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.ui.min.js' crossorigin='anonymous'></script>
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/controls.min.css' crossorigin='anonymous' />
+<center><b><p style="color:white; opacity:0.35;">SookanTV.com </p></b>
+<body>
+<div data-shaka-player-container style='position:absolute;z-index: -1;top: 0;left: 0;width: 100%; height: 100%;object-fit: cover;'><video autoplay data-shaka-player poster="https://marginfull.github.io/logo/poster_sooka.png" id='video' style='width:100%;height:100%;'></video>
+</div>
+  <script>
+
+const manifestUri = "link sini";
+async function init() {
+const video = document.getElementById('video');
+const ui = video['ui'];
+const controls = ui.getControls();
+const player = controls.getPlayer();
+window.player = player;
+window.ui = ui;
+player.setTextTrackVisibility(true);
+player.configure({
+drm: {"clearKeys": {
+"": ""
+},
+},
+  
+abr: {
+				defaultBandwidthEstimate: 123,
+                enabled: true
+			},
+});player.addEventListener('error', onPlayerErrorEvent);
+controls.addEventListener('error', onUIErrorEvent);
+try {
+await player.load(manifestUri);
+console.log('The video has now been loaded!');
+} catch (error) {
+onPlayerError(error);
+}
+
+
+
+}
+
+function onPlayerErrorEvent(errorEvent) {
+onPlayerError(event.detail);
+}
+
+function onPlayerError(error) {
+console.error('Error code', error.code, 'object', error);
+}
+
+function onUIErrorEvent(errorEvent) {
+onPlayerError(event.detail);
+}
+
+function initFailed(errorEvent) {
+console.error('Unable to load the UI library!');
+}
+document.addEventListener('shaka-ui-loaded', init);
+document.addEventListener('shaka-ui-load-failed', initFailed);
+  
+  
+  </script>
+
+</textArea>
+</font>
+<br>
+<hr>
+</form>
+</center>
+</body>
+</html>
