@@ -32,7 +32,10 @@ drm: {"clearKeys": {
   
 abr: {
 				defaultBandwidthEstimate: 123,
-                enabled: true
+                enabled: true,
+                restrictions: {
+  			    minHeight: 240,
+  			    maxHeight: 720 
 			},
 });player.addEventListener('error', onPlayerErrorEvent);
 controls.addEventListener('error', onUIErrorEvent);
