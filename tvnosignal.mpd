@@ -5,7 +5,7 @@
  <Period start="PT0S" duration="PT0H0M5.04S">
   <Representation mimeType="video/mp4" width="1280" height="720" sampleRate="44100" numChannels="2" lang="eng" startWithRAP="true" bandwidth="1010087">
    <SegmentInfo duration="PT2.00S">
-    <InitialisationSegmentURL sourceURL="output_1000k.mp4" range="0-1503"/>
+    <InitialisationSegmentURL sourceURL="tvnosignal.mp4" range="0-1503"/>
     <Url range="1503-378032"/>
     <Url range="378032-636195"/>
    </SegmentInfo>
