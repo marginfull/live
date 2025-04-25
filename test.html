@@ -1,110 +1,149 @@
-<!DOCTYPE html><html><head>
-<title>What is happening?!</title>
-<style>div a img{visibility:hidden;}body{margin:0;background-color: black;}</style>
-<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-<meta name="referrer" content="no-referrer" />
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What is happening?!</title>
+  <style>
+    div a img { visibility: hidden; }
+    body { margin: 0; background-color: black; }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.5/shaka-player.ui.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.5/controls.min.css" crossorigin="anonymous" />
+</head>
 <body>
-  
-<script src='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.5/shaka-player.ui.min.js' crossorigin='anonymous'></script>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.5/controls.min.css' crossorigin='anonymous' />
+  <center><b><p style="color:white; opacity:0.3;">Ohkey</p></b></center>
 
-<center><b><p style="color:white; opacity:0.3;">Ohkey</b></p>
-
-<div data-shaka-player-container style='position:absolute;z-index: -1;top: 0;left: 0;width: 100%; height: 100%;object-fit: cover;'><video autoplay data-shaka-player poster="https://marginfull.github.io/live/playbg.jpg" id='video' style='width:100%;height:100%;'></video>
-</div>
-<script id="oppo">
-  // Helper function to get query parameters from URL
-  function getQueryParam(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-  }
-
-  // Extract values from URL
-  const mpdUrl = getQueryParam("mpd");
-  const keyId = getQueryParam("keyid");
-  const key = getQueryParam("key");
-
-  const manifestUris = [mpdUrl"];
-  let currentIndex = 0;
-
-  async function init() {
-    const video = document.getElementById('video');
-    const ui = video['ui'];
-    const controls = ui.getControls();
-    const player = controls.getPlayer();
-    window.player = player;
-    window.ui = ui;
-
-    await configurePlayer(player);
-    loadNextManifest();
-  }
-
-  async function configurePlayer(player) {
-    const clearKeys = {};
-    if (keyId && key) {
-      clearKeys[keyId] = key;
+  <style>
+    @keyframes waterFlow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
-    player.setTextTrackVisibility(true);
-    player.configure({
-      streaming: {
-        rebufferingGoal: 5,
-        bufferingGoal: 30,
-        lowLatencyMode: true,
-      },
-      drm: {
-        clearKeys: clearKeys,
-      },
-      preferredTextLanguage: 'ms',
-      preferredAudioLanguage: 'ms',
-      abr: {
-        defaultBandwidthEstimate: 920,
-        enabled: true,
-        restrictions: {
-          minHeight: 359,
-          maxHeight: 720,
-        },
-      },
-    });
-  }
-
-  async function loadNextManifest() {
-    const player = window.player;
-
-    if (currentIndex >= manifestUris.length) {
-      console.error("All manifest URLs failed to load.");
-      return;
+    .shaka-seek-bar-container .shaka-seek-bar,
+    .shaka-volume-bar-container .shaka-volume-bar {
+      background: linear-gradient(120deg, #0077b6, #00b4d8, #90e0ef, #00b4d8, #0077b6);
+      background-size: 300% 100%;
+      animation: waterFlow 4s ease-in-out infinite;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 180, 216, 0.8);
     }
 
-    const manifestUri = manifestUris[currentIndex];
+    .shaka-video-container .material-icons-round {
+      color: #00b4d8;
+    }
 
-    try {
-      console.log(`Trying to load: ${manifestUri}`);
-      await player.load(manifestUri);
-      console.log(`Successfully loaded: ${manifestUri}`);
-    } catch (error) {
-      console.error(`Failed to load: ${manifestUri}`, error);
-      currentIndex++;
+    .shaka-spinner-path {
+      opacity: 0;
+    }
+
+    @keyframes color {
+      0%, 100% { stroke: #00b4d8; }
+      40% { stroke: #0077b6; }
+      66% { stroke: #90e0ef; }
+      80%, 90% { stroke: #00b4d8; }
+    }
+  </style>
+
+  <div data-shaka-player-container style="position:absolute;z-index:-1;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+    <video autoplay data-shaka-player poster="https://marginfull.github.io/live/playbg.jpg" id="video" style="width:100%;height:100%;"></video>
+  </div>
+
+  <script>
+    // Get URL parameters
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+
+    const mpdUrl = getQueryParam("mpd") || "https://linearjitp-playback.astro.com.my/dash-wv/linear/5053/default_ott.mpd";
+    const keyId = getQueryParam("keyid");
+    const key = getQueryParam("key");
+
+    const manifestUris = [mpdUrl];
+    let currentIndex = 0;
+
+    async function init() {
+      const video = document.getElementById('video');
+      const ui = video['ui'];
+      const controls = ui.getControls();
+      const player = controls.getPlayer();
+      window.player = player;
+      window.ui = ui;
+
+      await configurePlayer(player);
       loadNextManifest();
     }
-  }
 
-  function onPlayerErrorEvent(errorEvent) {
-    onPlayerError(errorEvent.detail);
-  }
+    async function configurePlayer(player) {
+      const clearKeys = {};
+      if (keyId && key) {
+        clearKeys[keyId] = key;
+      }
 
-  function onPlayerError(error) {
-    console.error('Error code', error.code, 'object', error);
-  }
+      player.setTextTrackVisibility(true);
+      player.configure({
+        streaming: {
+          rebufferingGoal: 5,
+          bufferingGoal: 30,
+          lowLatencyMode: true,
+        },
+        drm: {
+          clearKeys: clearKeys,
+        },
+        preferredTextLanguage: 'ms',
+        preferredAudioLanguage: 'ms',
+        abr: {
+          defaultBandwidthEstimate: 920,
+          enabled: true,
+          restrictions: {
+            minHeight: 359,
+            maxHeight: 720,
+          },
+        },
+      });
+    }
 
-  function onUIErrorEvent(errorEvent) {
-    onPlayerError(errorEvent.detail);
-  }
+    async function loadNextManifest() {
+      const player = window.player;
 
-  function initFailed(errorEvent) {
-    console.error('Unable to load the UI library!');
-  }
+      if (currentIndex >= manifestUris.length) {
+        console.error("All manifest URLs failed to load.");
+        return;
+      }
 
-  document.addEventListener('shaka-ui-loaded', init);
-  document.addEventListener('shaka-ui-load-failed', initFailed);
-</script>
+      const manifestUri = manifestUris[currentIndex];
+
+      try {
+        console.log(`Trying to load: ${manifestUri}`);
+        await player.load(manifestUri);
+        console.log(`Successfully loaded: ${manifestUri}`);
+      } catch (error) {
+        console.error(`Failed to load: ${manifestUri}`, error);
+        currentIndex++;
+        loadNextManifest();
+      }
+    }
+
+    function onPlayerErrorEvent(errorEvent) {
+      onPlayerError(errorEvent.detail);
+    }
+
+    function onPlayerError(error) {
+      console.error('Error code', error.code, 'object', error);
+    }
+
+    function onUIErrorEvent(errorEvent) {
+      onPlayerError(errorEvent.detail);
+    }
+
+    function initFailed(errorEvent) {
+      console.error('Unable to load the UI library!');
+    }
+
+    document.addEventListener('shaka-ui-loaded', init);
+    document.addEventListener('shaka-ui-load-failed', initFailed);
+  </script>
+</body>
+</html>
