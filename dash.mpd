@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:scte214="urn:scte:dash:scte214-extensions" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT2H22M13.799999996S" minBufferTime="PT2S">
   <Period id="1" duration="PT2H21M43.799999996S" start="PT30S">
-    <BaseURL>/321e079e-091e-46bc-b8cd-254c66641304/</BaseURL>
+    <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304//321e079e-091e-46bc-b8cd-254c66641304/</BaseURL>
     <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="0" lang="en-US" contentType="audio">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="01005d20-4f44-44c4-d4c4-c3d293d41250" value="cenc"></ContentProtection>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
@@ -12,7 +12,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="258639" codecs="ec-3" id="a2">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="6"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a2.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a2.mp4</BaseURL>
         <SegmentBase timescale="48000" indexRange="658-26249">
           <Initialization range="0-657"></Initialization>
         </SegmentBase>
@@ -28,7 +28,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="130639" codecs="ec-3" id="a6">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a6.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a6.mp4</BaseURL>
         <SegmentBase timescale="48000" indexRange="658-26249">
           <Initialization range="0-657"></Initialization>
         </SegmentBase>
@@ -44,7 +44,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="130639" codecs="ec-3" id="a4">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a4.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a4.mp4</BaseURL>
         <SegmentBase timescale="48000" indexRange="658-26249">
           <Initialization range="0-657"></Initialization>
         </SegmentBase>
@@ -60,7 +60,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="130639" codecs="ec-3" id="a1">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a1.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a1.mp4</BaseURL>
         <SegmentBase timescale="48000" indexRange="658-26249">
           <Initialization range="0-657"></Initialization>
         </SegmentBase>
@@ -76,7 +76,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66507" codecs="mp4a.40.5" id="a3">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a3.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a3.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-26278">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -92,7 +92,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66605" codecs="mp4a.40.5" id="a7">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a7.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a7.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-26278">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -108,7 +108,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66697" codecs="mp4a.40.5" id="a5">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a5.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a5.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-26278">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -124,7 +124,7 @@
       </ContentProtection>
       <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="66824" codecs="mp4a.40.5" id="a0">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
-        <BaseURL>a/80_c7cdc7/a0.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/a/80_c7cdc7/a0.mp4</BaseURL>
         <SegmentBase timescale="24000" indexRange="687-26278">
           <Initialization range="0-686"></Initialization>
         </SegmentBase>
@@ -141,37 +141,37 @@
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="9,10"></SupplementalProperty>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="453804" codecs="avc1.64000d" height="234" id="v5" width="416">
-        <BaseURL>v/0_42441c/v5.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v5.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="770-26361">
           <Initialization range="0-769"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="687806" codecs="avc1.640015" height="270" id="v4" width="480">
-        <BaseURL>v/0_42441c/v4.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v4.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="770-26361">
           <Initialization range="0-769"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="1031728" codecs="avc1.640015" height="306" id="v1" width="544">
-        <BaseURL>v/0_42441c/v1.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v1.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="772-26363">
           <Initialization range="0-771"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="1536502" codecs="avc1.64001e" height="360" id="v7" width="640">
-        <BaseURL>v/0_42441c/v7.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v7.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="772-26363">
           <Initialization range="0-771"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="2386678" codecs="avc1.64001e" height="432" id="v2" width="768">
-        <BaseURL>v/0_42441c/v2.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v2.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="771-26362">
           <Initialization range="0-770"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="3643852" codecs="avc1.64001f" height="576" id="v6" width="1024">
-        <BaseURL>v/0_42441c/v6.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v6.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="771-26362">
           <Initialization range="0-770"></Initialization>
         </SegmentBase>
@@ -188,7 +188,7 @@
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="8,10"></SupplementalProperty>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="5877222" codecs="avc1.64001f" height="720" id="v3" width="1280">
-        <BaseURL>v/0_42441c/v3.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v3.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="771-26362">
           <Initialization range="0-770"></Initialization>
         </SegmentBase>
@@ -205,13 +205,13 @@
       <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="8,9"></SupplementalProperty>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="9176830" codecs="avc1.640028" height="900" id="v8" width="1600">
-        <BaseURL>v/0_42441c/v8.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v8.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="772-26363">
           <Initialization range="0-771"></Initialization>
         </SegmentBase>
       </Representation>
       <Representation sar="1:1" mimeType="video/mp4" bandwidth="15638748" codecs="avc1.640029" height="1080" id="v0" width="1920">
-        <BaseURL>v/0_42441c/v0.mp4</BaseURL>
+        <BaseURL>https://cf.asia.prd.media.max.com/321e079e-091e-46bc-b8cd-254c66641304/v/0_42441c/v0.mp4</BaseURL>
         <SegmentBase timescale="25" indexRange="773-26364">
           <Initialization range="0-772"></Initialization>
         </SegmentBase>
