@@ -1,0 +1,17 @@
+div a img { visibility: hidden; }
+    body { margin: 0; background-color: black; }
+    
+/* Styling for Shaka Player */
+@keyframes waterFlow {
+  0%, 100% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+}
+.shaka-seek-bar, .shaka-volume-bar {
+  background: linear-gradient(120deg, #0077b6, #00b4d8, #90e0ef, #00b4d8, #0077b6);
+  background-size: 300% 100%;
+  animation: waterFlow 4s ease-in-out infinite;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 180, 216, 0.8);
+}
+.shaka-video-container .material-icons-round { color: #00b4d8; }
+.shaka-spinner-path { opacity: 0; }
