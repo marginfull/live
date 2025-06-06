@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:scte214="urn:scte:dash:scte214-extensions" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT1H23M9.999999999S" minBufferTime="PT2S">
+  <Period id="1" duration="PT6S" start="PT0S">
+    <BaseURL>https://akm.asia.prd.media.max.com/13c6bd17-b226-4092-bb82-812b349c032d/</BaseURL>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="0" lang="en-US" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="256429" codecs="ec-3" id="a0">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
+        <BaseURL>dc/3_7200a5/a0.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="578-633">
+          <Initialization range="0-577"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="1" lang="en-US" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="63825" codecs="mp4a.40.5" id="a1">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>dc/3_7200a5/a1.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="607-662">
+          <Initialization range="0-606"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="25/1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="2" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="51284" codecs="avc1.4d400d" height="234" id="v6" width="416">
+        <BaseURL>dc/3_7200a5/v6.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="685-740">
+          <Initialization range="0-684"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="64400" codecs="avc1.4d4015" height="270" id="v5" width="480">
+        <BaseURL>dc/3_7200a5/v5.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="685-740">
+          <Initialization range="0-684"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="78608" codecs="avc1.4d4015" height="306" id="v3" width="544">
+        <BaseURL>dc/3_7200a5/v3.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="687-742">
+          <Initialization range="0-686"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="101440" codecs="avc1.4d401e" height="360" id="v4" width="640">
+        <BaseURL>dc/3_7200a5/v4.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="687-742">
+          <Initialization range="0-686"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="133732" codecs="avc1.4d401e" height="432" id="v0" width="768">
+        <BaseURL>dc/3_7200a5/v0.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="686-741">
+          <Initialization range="0-685"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="190832" codecs="avc1.4d401f" height="576" id="v8" width="1024">
+        <BaseURL>dc/3_7200a5/v8.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="686-741">
+          <Initialization range="0-685"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="254000" codecs="avc1.4d401f" height="720" id="v1" width="1280">
+        <BaseURL>dc/3_7200a5/v1.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="687-742">
+          <Initialization range="0-686"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="348440" codecs="avc1.4d4028" height="900" id="v2" width="1600">
+        <BaseURL>dc/3_7200a5/v2.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="687-742">
+          <Initialization range="0-686"/>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="412980" codecs="avc1.4d4028" height="1080" id="v7" width="1920">
+        <BaseURL>dc/3_7200a5/v7.mp4</BaseURL>
+        <SegmentBase timescale="25" indexRange="689-744">
+          <Initialization range="0-688"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
