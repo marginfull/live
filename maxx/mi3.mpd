@@ -104,23 +104,7 @@
         </SegmentBase>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet frameRate="25/1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="8" par="40:17" maxWidth="1920" maxHeight="818" contentType="video">
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="01053122-9075-717c-bee6-140811f5f190" value="cenc"/>
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBJAGoARQBGAEEAWABXAFEAZgBIAEcAKwA1AGgAUQBJAEUAZgBYAHgAawBBAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFUATQBCAEIAYwBwAHYARgBhAEQAZwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAMoupnphQXo8NwsfSNw0SEAEFMSKQdXF8vuYUCBH18ZASEAEC2v7LqO2iyDPmLyjqH5MSEAEBOCV4neN0BkuO74OlALxI49yVmwY=</cenc:pssh>
-      </ContentProtection>
-      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="6,7"/>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="16756598" codecs="avc1.640029" height="818" id="v2" width="1920">
-        <BaseURL>v/0_e95adf/v2.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="773-22488">
-          <Initialization range="0-772"/>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
+
     <AdaptationSet id="12" maxWidth="352" maxHeight="150" contentType="image">
       <SegmentTemplate duration="5" media="i/0_1f3476/$RepresentationID$_$Number%08d$.jpg" startNumber="0"/>
       <Representation mimeType="image/jpeg" bandwidth="3778" height="150" id="images_1" width="352">

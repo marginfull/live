@@ -98,29 +98,7 @@
         </SegmentBase>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet frameRate="25/1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="4" par="16:9" maxWidth="1920" maxHeight="1080" contentType="video">
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="01052a8f-ee0a-f2f9-4781-f66f8235d8dd" value="cenc"/>
-      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
-        <cenc:pssh>AAACJnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAgYGAgAAAQABAPwBPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBqAHkAbwBGAEEAUQByAHUAKwBmAEoASABnAGYAWgB2AGcAagBYAFkAMwBRAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFIAdABhAEkAZABvAE0AcQBSAFYAdwA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</cenc:pssh>
-      </ContentProtection>
-      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-        <cenc:pssh>AAAAbnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAE4SEAEAg/7UbKV4Et5QKQD0pjASEAEFKo/uCvL5R4H2b4I12N0SEAECVApuKQaBdIdnJluQ128SEAEBtPa2/tRuKsg8yxbBoYFI49yVmwY=</cenc:pssh>
-      </ContentProtection>
-      <SupplementalProperty schemeIdUri="urn:mpeg:dash:adaptation-set-switching:2016" value="2,3"/>
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="8036896" codecs="avc1.640028" height="900" id="v7" width="1600">
-        <BaseURL>v/0_aacb41/v7.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="772-13691">
-          <Initialization range="0-771"/>
-        </SegmentBase>
-      </Representation>
-      <Representation sar="1:1" mimeType="video/mp4" bandwidth="13274396" codecs="avc1.640029" height="1080" id="v2" width="1920">
-        <BaseURL>v/0_aacb41/v2.mp4</BaseURL>
-        <SegmentBase timescale="25" indexRange="773-13692">
-          <Initialization range="0-772"/>
-        </SegmentBase>
-      </Representation>
-    </AdaptationSet>
+
     <AdaptationSet id="8" maxWidth="352" maxHeight="198" contentType="image">
       <SegmentTemplate duration="5" media="i/0_94ad92/$RepresentationID$_$Number%08d$.jpg" startNumber="0"/>
       <Representation mimeType="image/jpeg" bandwidth="3440" height="198" id="images_1" width="352">
