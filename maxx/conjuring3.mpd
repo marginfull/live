@@ -250,4 +250,76 @@
       </Representation>
     </AdaptationSet>
   </Period>
+    <Period id="1" duration="PT29.612916666S" start="PT1H51M50.120083331S">
+    <BaseURL>/3cab8eac-4c1a-4d3c-8f8f-10e1f83e3604/</BaseURL>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="0" lang="th" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="256216" codecs="ec-3" id="a0">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"></AudioChannelConfiguration>
+        <BaseURL>dc/0_e3ad83/a0.mp4</BaseURL>
+        <SegmentBase timescale="48000" indexRange="578-705">
+          <Initialization range="0-577"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="1" lang="th" contentType="audio">
+      <Representation mimeType="audio/mp4" audioSamplingRate="48000" bandwidth="63648" codecs="mp4a.40.5" id="a1">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+        <BaseURL>dc/0_e3ad83/a1.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="607-734">
+          <Initialization range="0-606"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet frameRate="24000/1001" subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="2" maxWidth="1920" maxHeight="800" contentType="video">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="29437" codecs="avc1.4d400d" height="174" id="v3" width="416">
+        <BaseURL>dc/0_e3ad83/v3.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="685-812">
+          <Initialization range="0-684"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="36416" codecs="avc1.4d400d" height="200" id="v0" width="480">
+        <BaseURL>dc/0_e3ad83/v0.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="684-811">
+          <Initialization range="0-683"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="44070" codecs="avc1.4d4015" height="226" id="v5" width="544">
+        <BaseURL>dc/0_e3ad83/v5.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="685-812">
+          <Initialization range="0-684"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="54964" codecs="avc1.4d4015" height="266" id="v7" width="640">
+        <BaseURL>dc/0_e3ad83/v7.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="685-812">
+          <Initialization range="0-684"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="69637" codecs="avc1.4d401e" height="320" id="v8" width="768">
+        <BaseURL>dc/0_e3ad83/v8.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="684-811">
+          <Initialization range="0-683"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="105983" codecs="avc1.4d401f" height="426" id="v6" width="1024">
+        <BaseURL>dc/0_e3ad83/v6.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="687-814">
+          <Initialization range="0-686"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="147000" codecs="avc1.4d401f" height="534" id="v2" width="1280">
+        <BaseURL>dc/0_e3ad83/v2.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="687-814">
+          <Initialization range="0-686"></Initialization>
+        </SegmentBase>
+      </Representation>
+      <Representation sar="1:1" mimeType="video/mp4" bandwidth="207181" codecs="avc1.4d4020" height="666" id="v1" width="1600">
+        <BaseURL>dc/0_e3ad83/v1.mp4</BaseURL>
+        <SegmentBase timescale="24000" indexRange="686-813">
+          <Initialization range="0-685"></Initialization>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
 </MPD>
