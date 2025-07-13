@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:scte214="urn:scte:dash:scte214-extensions" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT2H34M15.454541662S" minBufferTime="PT2S">
+<BaseURL>https://gcp.asia.prd.media.max.com/f1db6384-bafd-47ac-80b6-b45cd6d083a1/</BaseURL>
   <Period id="0" duration="PT2H34M15.454541662S" start="PT0S">
-  <BaseURL>https://gcp.asia.prd.media.max.com/</BaseURL>
 
     <AdaptationSet subsegmentAlignment="true" subsegmentStartsWithSAP="1" id="1" lang="en-US" contentType="audio">
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="01006b63-b9d6-16c3-4c12-c42ac7e4bbfd" value="cenc"></ContentProtection>
