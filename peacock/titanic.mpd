@@ -16,7 +16,7 @@
                 <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWJGLudvh26AIKIdddbG9I49yVmwY=</cenc:pssh>
             </ContentProtection>
             <Accessibility schemeIdUri="urn:scte:dash:cc:cea-708:2015" value="1=lang:eng"/>
-            <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+            <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
                 <SegmentTimeline>
                     <S d="144144" r="1870" t="0"/>
                     <S d="30030" t="269693424"/>
@@ -26,7 +26,7 @@
                 </SegmentTimeline>
             </SegmentTemplate>
             <Representation bandwidth="1837514" codecs="avc1.4D401F" height="540" id="r0/video/sdr/avc/1850k_540_cmaf" scanType="progressive" width="960">
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="144144" r="1870" t="0"/>
                         <S d="30030" t="269693424"/>
@@ -37,7 +37,7 @@
                 </SegmentTemplate>
             </Representation>
             <Representation bandwidth="2981881" codecs="avc1.4D401F" height="540" id="r0/video/sdr/avc/3000k_540_cmaf" scanType="progressive" width="960">
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="144144" r="1870" t="0"/>
                         <S d="30030" t="269693424"/>
@@ -48,7 +48,7 @@
                 </SegmentTemplate>
             </Representation>
             <Representation bandwidth="847135" codecs="avc1.4D401E" height="432" id="r0/video/sdr/avc/860k_432_cmaf" scanType="progressive" width="768">
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="144144" r="1870" t="0"/>
                         <S d="30030" t="269693424"/>
@@ -59,7 +59,7 @@
                 </SegmentTemplate>
             </Representation>
             <Representation bandwidth="338748" codecs="avc1.4D4015" height="288" id="r0/video/sdr/avc/350k_288_cmaf" scanType="progressive" width="512">
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="144144" r="1870" t="0"/>
                         <S d="30030" t="269693424"/>
@@ -83,7 +83,7 @@
                 <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWJGLudvh26AIKIdddbG9I49yVmwY=</cenc:pssh>
             </ContentProtection>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-0.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-0_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+            <SegmentTemplate initialization="$RepresentationID$/seg-0.mp4" media="$RepresentationID$/seg-0_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
                 <SegmentTimeline>
                     <S d="287744" r="1873" t="0"/>
                     <S d="215040" t="539232256"/>
@@ -94,7 +94,7 @@
             </SegmentTemplate>
             <Representation audioSamplingRate="48000" bandwidth="131633" codecs="mp4a.40.2" id="r0/audio/stereo/en">
                 <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-0.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-0_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                <SegmentTemplate initialization="$RepresentationID$/seg-0.mp4" media="$RepresentationID$/seg-0_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
                     <SegmentTimeline>
                         <S d="287744" r="1873" t="0"/>
                         <S d="215040" t="539232256"/>
@@ -117,7 +117,7 @@
             <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
                 <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWJGLudvh26AIKIdddbG9I49yVmwY=</cenc:pssh>
             </ContentProtection>
-            <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-1.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-1_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+            <SegmentTemplate initialization="$RepresentationID$/seg-1.mp4" media="$RepresentationID$/seg-1_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
                 <SegmentTimeline>
                     <S d="287744" r="1873" t="0"/>
                     <S d="215040" t="539232256"/>
@@ -128,7 +128,7 @@
             </SegmentTemplate>
             <Representation audioSamplingRate="48000" bandwidth="131633" codecs="mp4a.40.2" id="r0/audio/stereo/es">
                 <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-1.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-1_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                <SegmentTemplate initialization="$RepresentationID$/seg-1.mp4" media="$RepresentationID$/seg-1_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
                     <SegmentTimeline>
                         <S d="287744" r="1873" t="0"/>
                         <S d="215040" t="539232256"/>
@@ -152,7 +152,7 @@
                 <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWJGLudvh26AIKIdddbG9I49yVmwY=</cenc:pssh>
             </ContentProtection>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-2.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-2_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+            <SegmentTemplate initialization="$RepresentationID$/seg-2.mp4" media="$RepresentationID$/seg-2_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
                 <SegmentTimeline>
                     <S d="288768" r="1866" t="0"/>
                     <S d="316416" t="539129856"/>
@@ -163,7 +163,7 @@
             </SegmentTemplate>
             <Representation audioSamplingRate="48000" bandwidth="388257" codecs="ec-3" id="r0/audio/surround/en">
                 <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
-                <SegmentTemplate initialization="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-2.mp4" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/$RepresentationID$/seg-2_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                <SegmentTemplate initialization="$RepresentationID$/seg-2.mp4" media="$RepresentationID$/seg-2_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
                     <SegmentTimeline>
                         <S d="288768" r="1866" t="0"/>
                         <S d="316416" t="539129856"/>
@@ -175,7 +175,7 @@
             </Representation>
         </AdaptationSet>
         <AdaptationSet contentType="image" group="4" mimeType="image/jpeg">
-            <SegmentTemplate duration="7200000" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/images/416x234/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+            <SegmentTemplate duration="7200000" media="images/416x234/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
                 <SegmentTimeline>
                     <S d="7200000" r="36" t="0"/>
                     <S d="3323454" t="266400000"/>
@@ -185,7 +185,7 @@
             </SegmentTemplate>
             <Representation bandwidth="29902" height="1404" id="thumbnails_0" width="2080">
                 <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
-                <SegmentTemplate duration="7200000" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/images/416x234/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate duration="7200000" media="images/416x234/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="7200000" r="36" t="0"/>
                         <S d="3323454" t="266400000"/>
@@ -196,7 +196,7 @@
             </Representation>
         </AdaptationSet>
         <AdaptationSet contentType="image" group="4" mimeType="image/jpeg">
-            <SegmentTemplate duration="7200000" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/images/336x189/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+            <SegmentTemplate duration="7200000" media="images/336x189/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
                 <SegmentTimeline>
                     <S d="7200000" r="36" t="0"/>
                     <S d="3323454" t="266400000"/>
@@ -206,7 +206,7 @@
             </SegmentTemplate>
             <Representation bandwidth="21687" height="1134" id="thumbnails_1" width="1680">
                 <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
-                <SegmentTemplate duration="7200000" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/images/336x189/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate duration="7200000" media="images/336x189/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="7200000" r="36" t="0"/>
                         <S d="3323454" t="266400000"/>
@@ -217,7 +217,7 @@
             </Representation>
         </AdaptationSet>
         <AdaptationSet contentType="image" group="4" mimeType="image/jpeg">
-            <SegmentTemplate duration="7200000" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/images/224x126/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+            <SegmentTemplate duration="7200000" media="images/224x126/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
                 <SegmentTimeline>
                     <S d="7200000" r="36" t="0"/>
                     <S d="3323454" t="266400000"/>
@@ -227,7 +227,7 @@
             </SegmentTemplate>
             <Representation bandwidth="11511" height="756" id="thumbnails_2" width="1120">
                 <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
-                <SegmentTemplate duration="7200000" media="https://g003-vod-us-cmaf-prd-ak-a108.cdn.peacocktv.com/pub/global/KH0/U1u/GMO_00000000417717_01/PCK_1719639923269_7c64_01/mpeg_cenc/images/224x126/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTemplate duration="7200000" media="images/224x126/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
                         <S d="7200000" r="36" t="0"/>
                         <S d="3323454" t="266400000"/>
