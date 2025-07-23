@@ -1,0 +1,15 @@
+#EXTM3U
+## Generated with https://github.com/shaka-project/shaka-packager version v3.1.0-52647b9-release
+
+#EXT-X-INDEPENDENT-SEGMENTS
+
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://vod-content.plexvideos.com/streams/67e0ae6111ad92dff3ed1632/6b0b2207-972e-4862-80db-064cfc1b70b8/stream_0.m3u8",GROUP-ID="default-audio-group",LANGUAGE="zh",NAME="main_zh_0",DEFAULT=NO,CHANNELS="2",AUTOSELECT=YES,DEFAULT=YES
+
+#EXT-X-STREAM-INF:BANDWIDTH=707967,AVERAGE-BANDWIDTH=438947,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=24.000,AUDIO="default-audio-group",CLOSED-CAPTIONS=NONE
+https://vod-content.plexvideos.com/streams/67e0ae6111ad92dff3ed1632/6b0b2207-972e-4862-80db-064cfc1b70b8/stream_1.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1753623,AVERAGE-BANDWIDTH=1037619,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=24.000,AUDIO="default-audio-group",CLOSED-CAPTIONS=NONE
+https://vod-content.plexvideos.com/streams/67e0ae6111ad92dff3ed1632/6b0b2207-972e-4862-80db-064cfc1b70b8/stream_2.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=3008525,AVERAGE-BANDWIDTH=1783237,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=24.000,AUDIO="default-audio-group",CLOSED-CAPTIONS=NONE
+https://vod-content.plexvideos.com/streams/67e0ae6111ad92dff3ed1632/6b0b2207-972e-4862-80db-064cfc1b70b8/stream_4.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1071504,AVERAGE-BANDWIDTH=639305,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=960x540,FRAME-RATE=24.000,AUDIO="default-audio-group",CLOSED-CAPTIONS=NONE
+https://vod-content.plexvideos.com/streams/67e0ae6111ad92dff3ed1632/6b0b2207-972e-4862-80db-064cfc1b70b8/stream_3.m3u8
