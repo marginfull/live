@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD mediaPresentationDuration="PT1H48M25.165S" minBufferTime="PT5.99S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+    <BaseURL>https://g003-vod-us-cmaf-prd-fy.cdn.peacocktv.com/pub/global/7yt/RC6/GMO_00000000428403_01/PCK_1752803071129_4fc1_01/mpeg_cenc/</BaseURL>
+    <Period duration="PT1H48M25.165S" id="_PT0S" start="PT0S">
+        <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000" value="scte35"/>
+        <AdaptationSet contentType="video" frameRate="24000/1001" group="1" maxHeight="1080" maxWidth="1920" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <ContentProtection cenc:default_KID="00166db8-c53d-74bf-4839-1b288a107296" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+                <cenc:pssh>AAADYnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAA0JCAwAAAQABADgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwATABBAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAGwAaQBjAC4AcABlAGEAYwBvAGMAawB0AHYALgBjAG8AbQAvAFAAbABhAHkAUgBlAGEAZAB5AEwAaQBjAGUAbgBzAGUAcgAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwATABVAEkAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AbABpAGMALgBwAGUAYQBjAG8AYwBrAHQAdgAuAGMAbwBtAC8AUABsAGEAeQBSAGUAYQBkAHkATABpAGMAZQBuAHMAZQByAC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAVQBJAF8AVQBSAEwAPgA8AEsASQBEAD4AdQBHADAAVwBBAEQAMwBGAHYAMwBSAEkATwBSAHMAbwBpAGgAQgB5AGwAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBmAHUAcwBaAHMASQArAHgATgB0AFEAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+                <mspr:IsEncrypted>1</mspr:IsEncrypted>
+                <mspr:IV_Size>8</mspr:IV_Size>
+                <mspr:kid>uG0WAD3Fv3RIORsoihBylg==</mspr:kid>
+                <mspr:pro>QgMAAAEAAQA4AzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBsAGkAYwAuAHAAZQBhAGMAbwBjAGsAdAB2AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQBMAGkAYwBlAG4AcwBlAHIALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABBAF8AVQBSAEwAPgA8AEwAVQBJAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAGwAaQBjAC4AcABlAGEAYwBvAGMAawB0AHYALgBjAG8AbQAvAFAAbABhAHkAUgBlAGEAZAB5AEwAaQBjAGUAbgBzAGUAcgAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAFUASQBfAFUAUgBMAD4APABLAEkARAA+AHUARwAwAFcAQQBEADMARgB2ADMAUgBJAE8AUgBzAG8AaQBoAEIAeQBsAGcAPQA9ADwALwBLAEkARAA+ADwAQwBIAEUAQwBLAFMAVQBNAD4AZgB1AHMAWgBzAEkAKwB4AE4AdABRAD0APAAvAEMASABFAEMASwBTAFUATQA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</mspr:pro>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWbbjFPXS/SDkbKIoQcpZI49yVmwY=</cenc:pssh>
+            </ContentProtection>
+            <Accessibility schemeIdUri="urn:scte:dash:cc:cea-708:2015" value="1=lang:eng"/>
+            <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTimeline>
+                    <S d="144144" r="127" t="0"/>
+                    <S d="145145" t="18450432"/>
+                    <S d="144144" r="73" t="18595577"/>
+                    <S d="32032" t="29262233"/>
+                    <S d="144144" r="110" t="29294265"/>
+                    <S d="64064" t="45294249"/>
+                    <S d="144144" r="88" t="45358313"/>
+                    <S d="33033" t="58187129"/>
+                    <S d="144144" r="62" t="58220162"/>
+                    <S d="149149" t="67301234"/>
+                    <S d="144144" r="71" t="67450383"/>
+                    <S d="141141" t="77828751"/>
+                    <S d="144144" r="59" t="77969892"/>
+                    <S d="120120" t="86618532"/>
+                    <S d="144144" r="174" t="86738652"/>
+                    <S d="27027" t="111963852"/>
+                    <S d="144144" r="277" t="111990879"/>
+                    <S d="152152" t="152062911"/>
+                    <S d="144144" r="25" t="152215063"/>
+                    <S d="161161" t="155962807"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation bandwidth="1855742" codecs="avc1.4D401F" height="540" id="r0/video/sdr/avc/1850k_540_cmaf" scanType="progressive" width="960">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="144144" r="127" t="0"/>
+                        <S d="145145" t="18450432"/>
+                        <S d="144144" r="73" t="18595577"/>
+                        <S d="32032" t="29262233"/>
+                        <S d="144144" r="110" t="29294265"/>
+                        <S d="64064" t="45294249"/>
+                        <S d="144144" r="88" t="45358313"/>
+                        <S d="33033" t="58187129"/>
+                        <S d="144144" r="62" t="58220162"/>
+                        <S d="149149" t="67301234"/>
+                        <S d="144144" r="71" t="67450383"/>
+                        <S d="141141" t="77828751"/>
+                        <S d="144144" r="59" t="77969892"/>
+                        <S d="120120" t="86618532"/>
+                        <S d="144144" r="174" t="86738652"/>
+                        <S d="27027" t="111963852"/>
+                        <S d="144144" r="277" t="111990879"/>
+                        <S d="152152" t="152062911"/>
+                        <S d="144144" r="25" t="152215063"/>
+                        <S d="161161" t="155962807"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation bandwidth="3001826" codecs="avc1.4D401F" height="540" id="r0/video/sdr/avc/3000k_540_cmaf" scanType="progressive" width="960">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="144144" r="127" t="0"/>
+                        <S d="145145" t="18450432"/>
+                        <S d="144144" r="73" t="18595577"/>
+                        <S d="32032" t="29262233"/>
+                        <S d="144144" r="110" t="29294265"/>
+                        <S d="64064" t="45294249"/>
+                        <S d="144144" r="88" t="45358313"/>
+                        <S d="33033" t="58187129"/>
+                        <S d="144144" r="62" t="58220162"/>
+                        <S d="149149" t="67301234"/>
+                        <S d="144144" r="71" t="67450383"/>
+                        <S d="141141" t="77828751"/>
+                        <S d="144144" r="59" t="77969892"/>
+                        <S d="120120" t="86618532"/>
+                        <S d="144144" r="174" t="86738652"/>
+                        <S d="27027" t="111963852"/>
+                        <S d="144144" r="277" t="111990879"/>
+                        <S d="152152" t="152062911"/>
+                        <S d="144144" r="25" t="152215063"/>
+                        <S d="161161" t="155962807"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation bandwidth="865264" codecs="avc1.4D401E" height="432" id="r0/video/sdr/avc/860k_432_cmaf" scanType="progressive" width="768">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="144144" r="127" t="0"/>
+                        <S d="145145" t="18450432"/>
+                        <S d="144144" r="73" t="18595577"/>
+                        <S d="32032" t="29262233"/>
+                        <S d="144144" r="110" t="29294265"/>
+                        <S d="64064" t="45294249"/>
+                        <S d="144144" r="88" t="45358313"/>
+                        <S d="33033" t="58187129"/>
+                        <S d="144144" r="62" t="58220162"/>
+                        <S d="149149" t="67301234"/>
+                        <S d="144144" r="71" t="67450383"/>
+                        <S d="141141" t="77828751"/>
+                        <S d="144144" r="59" t="77969892"/>
+                        <S d="120120" t="86618532"/>
+                        <S d="144144" r="174" t="86738652"/>
+                        <S d="27027" t="111963852"/>
+                        <S d="144144" r="277" t="111990879"/>
+                        <S d="152152" t="152062911"/>
+                        <S d="144144" r="25" t="152215063"/>
+                        <S d="161161" t="155962807"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation bandwidth="356658" codecs="avc1.4D4015" height="288" id="r0/video/sdr/avc/350k_288_cmaf" scanType="progressive" width="512">
+                <SegmentTemplate initialization="$RepresentationID$/seg.mp4" media="$RepresentationID$/seg_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="144144" r="127" t="0"/>
+                        <S d="145145" t="18450432"/>
+                        <S d="144144" r="73" t="18595577"/>
+                        <S d="32032" t="29262233"/>
+                        <S d="144144" r="110" t="29294265"/>
+                        <S d="64064" t="45294249"/>
+                        <S d="144144" r="88" t="45358313"/>
+                        <S d="33033" t="58187129"/>
+                        <S d="144144" r="62" t="58220162"/>
+                        <S d="149149" t="67301234"/>
+                        <S d="144144" r="71" t="67450383"/>
+                        <S d="141141" t="77828751"/>
+                        <S d="144144" r="59" t="77969892"/>
+                        <S d="120120" t="86618532"/>
+                        <S d="144144" r="174" t="86738652"/>
+                        <S d="27027" t="111963852"/>
+                        <S d="144144" r="277" t="111990879"/>
+                        <S d="152152" t="152062911"/>
+                        <S d="144144" r="25" t="152215063"/>
+                        <S d="161161" t="155962807"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet Label="English" contentType="audio" group="2" lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <ContentProtection cenc:default_KID="00166db8-c53d-74bf-4839-1b288a107296" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+                <cenc:pssh>AAADYnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAA0JCAwAAAQABADgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwATABBAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAGwAaQBjAC4AcABlAGEAYwBvAGMAawB0AHYALgBjAG8AbQAvAFAAbABhAHkAUgBlAGEAZAB5AEwAaQBjAGUAbgBzAGUAcgAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwATABVAEkAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AbABpAGMALgBwAGUAYQBjAG8AYwBrAHQAdgAuAGMAbwBtAC8AUABsAGEAeQBSAGUAYQBkAHkATABpAGMAZQBuAHMAZQByAC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAVQBJAF8AVQBSAEwAPgA8AEsASQBEAD4AdQBHADAAVwBBAEQAMwBGAHYAMwBSAEkATwBSAHMAbwBpAGgAQgB5AGwAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBmAHUAcwBaAHMASQArAHgATgB0AFEAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+                <mspr:IsEncrypted>1</mspr:IsEncrypted>
+                <mspr:IV_Size>8</mspr:IV_Size>
+                <mspr:kid>uG0WAD3Fv3RIORsoihBylg==</mspr:kid>
+                <mspr:pro>QgMAAAEAAQA4AzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBsAGkAYwAuAHAAZQBhAGMAbwBjAGsAdAB2AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQBMAGkAYwBlAG4AcwBlAHIALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABBAF8AVQBSAEwAPgA8AEwAVQBJAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAGwAaQBjAC4AcABlAGEAYwBvAGMAawB0AHYALgBjAG8AbQAvAFAAbABhAHkAUgBlAGEAZAB5AEwAaQBjAGUAbgBzAGUAcgAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAFUASQBfAFUAUgBMAD4APABLAEkARAA+AHUARwAwAFcAQQBEADMARgB2ADMAUgBJAE8AUgBzAG8AaQBoAEIAeQBsAGcAPQA9ADwALwBLAEkARAA+ADwAQwBIAEUAQwBLAFMAVQBNAD4AZgB1AHMAWgBzAEkAKwB4AE4AdABRAD0APAAvAEMASABFAEMASwBTAFUATQA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</mspr:pro>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWbbjFPXS/SDkbKIoQcpZI49yVmwY=</cenc:pssh>
+            </ContentProtection>
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate initialization="$RepresentationID$/seg-0.mp4" media="$RepresentationID$/seg-0_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                <SegmentTimeline>
+                    <S d="287744" r="128" t="0"/>
+                    <S d="72704" t="37118976"/>
+                    <S d="287744" r="73" t="37191680"/>
+                    <S d="103424" t="58484736"/>
+                    <S d="287744" r="110" t="58588160"/>
+                    <S d="188416" t="90527744"/>
+                    <S d="287744" r="88" t="90716160"/>
+                    <S d="114688" t="116325376"/>
+                    <S d="287744" r="62" t="116440064"/>
+                    <S d="332800" t="134567936"/>
+                    <S d="287744" r="71" t="134900736"/>
+                    <S d="321536" t="155618304"/>
+                    <S d="287744" r="59" t="155939840"/>
+                    <S d="272384" t="173204480"/>
+                    <S d="287744" r="174" t="173476864"/>
+                    <S d="149504" t="223832064"/>
+                    <S d="287744" r="305" t="223981568"/>
+                    <S d="218112" t="312031232"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation audioSamplingRate="48000" bandwidth="131635" codecs="mp4a.40.2" id="r0/audio/stereo/en">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <SegmentTemplate initialization="$RepresentationID$/seg-0.mp4" media="$RepresentationID$/seg-0_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                    <SegmentTimeline>
+                        <S d="287744" r="128" t="0"/>
+                        <S d="72704" t="37118976"/>
+                        <S d="287744" r="73" t="37191680"/>
+                        <S d="103424" t="58484736"/>
+                        <S d="287744" r="110" t="58588160"/>
+                        <S d="188416" t="90527744"/>
+                        <S d="287744" r="88" t="90716160"/>
+                        <S d="114688" t="116325376"/>
+                        <S d="287744" r="62" t="116440064"/>
+                        <S d="332800" t="134567936"/>
+                        <S d="287744" r="71" t="134900736"/>
+                        <S d="321536" t="155618304"/>
+                        <S d="287744" r="59" t="155939840"/>
+                        <S d="272384" t="173204480"/>
+                        <S d="287744" r="174" t="173476864"/>
+                        <S d="149504" t="223832064"/>
+                        <S d="287744" r="305" t="223981568"/>
+                        <S d="218112" t="312031232"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet Label="English" contentType="audio" group="2" lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <ContentProtection cenc:default_KID="00166db8-c53d-74bf-4839-1b288a107296" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+                <cenc:pssh>AAADYnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAA0JCAwAAAQABADgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwATABBAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAGwAaQBjAC4AcABlAGEAYwBvAGMAawB0AHYALgBjAG8AbQAvAFAAbABhAHkAUgBlAGEAZAB5AEwAaQBjAGUAbgBzAGUAcgAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwATABVAEkAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AbABpAGMALgBwAGUAYQBjAG8AYwBrAHQAdgAuAGMAbwBtAC8AUABsAGEAeQBSAGUAYQBkAHkATABpAGMAZQBuAHMAZQByAC8AcgBpAGcAaAB0AHMAbQBhAG4AYQBnAGUAcgAuAGEAcwBtAHgAPAAvAEwAVQBJAF8AVQBSAEwAPgA8AEsASQBEAD4AdQBHADAAVwBBAEQAMwBGAHYAMwBSAEkATwBSAHMAbwBpAGgAQgB5AGwAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBmAHUAcwBaAHMASQArAHgATgB0AFEAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</cenc:pssh>
+                <mspr:IsEncrypted>1</mspr:IsEncrypted>
+                <mspr:IV_Size>8</mspr:IV_Size>
+                <mspr:kid>uG0WAD3Fv3RIORsoihBylg==</mspr:kid>
+                <mspr:pro>QgMAAAEAAQA4AzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcAA6AC8ALwBsAGkAYwAuAHAAZQBhAGMAbwBjAGsAdAB2AC4AYwBvAG0ALwBQAGwAYQB5AFIAZQBhAGQAeQBMAGkAYwBlAG4AcwBlAHIALwByAGkAZwBoAHQAcwBtAGEAbgBhAGcAZQByAC4AYQBzAG0AeAA8AC8ATABBAF8AVQBSAEwAPgA8AEwAVQBJAF8AVQBSAEwAPgBoAHQAdABwADoALwAvAGwAaQBjAC4AcABlAGEAYwBvAGMAawB0AHYALgBjAG8AbQAvAFAAbABhAHkAUgBlAGEAZAB5AEwAaQBjAGUAbgBzAGUAcgAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAFUASQBfAFUAUgBMAD4APABLAEkARAA+AHUARwAwAFcAQQBEADMARgB2ADMAUgBJAE8AUgBzAG8AaQBoAEIAeQBsAGcAPQA9ADwALwBLAEkARAA+ADwAQwBIAEUAQwBLAFMAVQBNAD4AZgB1AHMAWgBzAEkAKwB4AE4AdABRAD0APAAvAEMASABFAEMASwBTAFUATQA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</mspr:pro>
+            </ContentProtection>
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                <cenc:pssh>AAAAOHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABgSEAAWbbjFPXS/SDkbKIoQcpZI49yVmwY=</cenc:pssh>
+            </ContentProtection>
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate initialization="$RepresentationID$/seg-1.mp4" media="$RepresentationID$/seg-1_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                <SegmentTimeline>
+                    <S d="288768" r="127" t="0"/>
+                    <S d="228864" t="36962304"/>
+                    <S d="288768" r="72" t="37191168"/>
+                    <S d="317952" t="58271232"/>
+                    <S d="288768" r="110" t="58589184"/>
+                    <S d="73728" t="90642432"/>
+                    <S d="288768" r="87" t="90716160"/>
+                    <S d="313344" t="116127744"/>
+                    <S d="288768" r="62" t="116441088"/>
+                    <S d="267264" t="134633472"/>
+                    <S d="288768" r="71" t="134900736"/>
+                    <S d="247296" t="155692032"/>
+                    <S d="288768" r="59" t="155939328"/>
+                    <S d="211968" t="173265408"/>
+                    <S d="288768" r="173" t="173477376"/>
+                    <S d="258048" t="223723008"/>
+                    <S d="288768" r="304" t="223981056"/>
+                    <S d="192000" t="312055296"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation audioSamplingRate="48000" bandwidth="388259" codecs="ec-3" id="r0/audio/surround/en">
+                <AudioChannelConfiguration schemeIdUri="tag:dolby.com,2014:dash:audio_channel_configuration:2011" value="F801"/>
+                <SegmentTemplate initialization="$RepresentationID$/seg-1.mp4" media="$RepresentationID$/seg-1_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="48000">
+                    <SegmentTimeline>
+                        <S d="288768" r="127" t="0"/>
+                        <S d="228864" t="36962304"/>
+                        <S d="288768" r="72" t="37191168"/>
+                        <S d="317952" t="58271232"/>
+                        <S d="288768" r="110" t="58589184"/>
+                        <S d="73728" t="90642432"/>
+                        <S d="288768" r="87" t="90716160"/>
+                        <S d="313344" t="116127744"/>
+                        <S d="288768" r="62" t="116441088"/>
+                        <S d="267264" t="134633472"/>
+                        <S d="288768" r="71" t="134900736"/>
+                        <S d="247296" t="155692032"/>
+                        <S d="288768" r="59" t="155939328"/>
+                        <S d="211968" t="173265408"/>
+                        <S d="288768" r="173" t="173477376"/>
+                        <S d="258048" t="223723008"/>
+                        <S d="288768" r="304" t="223981056"/>
+                        <S d="192000" t="312055296"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="image" group="4" mimeType="image/jpeg">
+            <SegmentTemplate duration="7200000" media="images/416x234/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTimeline>
+                    <S d="7200000" r="1" t="0"/>
+                    <S d="4195577" t="14400000"/>
+                    <S d="7200000" t="18595577"/>
+                    <S d="3498688" t="25795577"/>
+                    <S d="7200000" r="1" t="29294265"/>
+                    <S d="1664048" t="43694265"/>
+                    <S d="7200000" t="45358313"/>
+                    <S d="5661849" t="52558313"/>
+                    <S d="7200000" t="58220162"/>
+                    <S d="2030221" t="65420162"/>
+                    <S d="7200000" t="67450383"/>
+                    <S d="3319509" t="74650383"/>
+                    <S d="7200000" t="77969892"/>
+                    <S d="1568760" t="85169892"/>
+                    <S d="7200000" r="2" t="86738652"/>
+                    <S d="3652227" t="108338652"/>
+                    <S d="7200000" r="5" t="111990879"/>
+                    <S d="933201" t="155190879"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation bandwidth="135375" height="1404" id="thumbnails_0" width="2080">
+                <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
+                <SegmentTemplate duration="7200000" media="images/416x234/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="7200000" r="1" t="0"/>
+                        <S d="4195577" t="14400000"/>
+                        <S d="7200000" t="18595577"/>
+                        <S d="3498688" t="25795577"/>
+                        <S d="7200000" r="1" t="29294265"/>
+                        <S d="1664048" t="43694265"/>
+                        <S d="7200000" t="45358313"/>
+                        <S d="5661849" t="52558313"/>
+                        <S d="7200000" t="58220162"/>
+                        <S d="2030221" t="65420162"/>
+                        <S d="7200000" t="67450383"/>
+                        <S d="3319509" t="74650383"/>
+                        <S d="7200000" t="77969892"/>
+                        <S d="1568760" t="85169892"/>
+                        <S d="7200000" r="2" t="86738652"/>
+                        <S d="3652227" t="108338652"/>
+                        <S d="7200000" r="5" t="111990879"/>
+                        <S d="933201" t="155190879"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="image" group="4" mimeType="image/jpeg">
+            <SegmentTemplate duration="7200000" media="images/336x189/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTimeline>
+                    <S d="7200000" r="1" t="0"/>
+                    <S d="4195577" t="14400000"/>
+                    <S d="7200000" t="18595577"/>
+                    <S d="3498688" t="25795577"/>
+                    <S d="7200000" r="1" t="29294265"/>
+                    <S d="1664048" t="43694265"/>
+                    <S d="7200000" t="45358313"/>
+                    <S d="5661849" t="52558313"/>
+                    <S d="7200000" t="58220162"/>
+                    <S d="2030221" t="65420162"/>
+                    <S d="7200000" t="67450383"/>
+                    <S d="3319509" t="74650383"/>
+                    <S d="7200000" t="77969892"/>
+                    <S d="1568760" t="85169892"/>
+                    <S d="7200000" r="2" t="86738652"/>
+                    <S d="3652227" t="108338652"/>
+                    <S d="7200000" r="5" t="111990879"/>
+                    <S d="933201" t="155190879"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation bandwidth="98317" height="1134" id="thumbnails_1" width="1680">
+                <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
+                <SegmentTemplate duration="7200000" media="images/336x189/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="7200000" r="1" t="0"/>
+                        <S d="4195577" t="14400000"/>
+                        <S d="7200000" t="18595577"/>
+                        <S d="3498688" t="25795577"/>
+                        <S d="7200000" r="1" t="29294265"/>
+                        <S d="1664048" t="43694265"/>
+                        <S d="7200000" t="45358313"/>
+                        <S d="5661849" t="52558313"/>
+                        <S d="7200000" t="58220162"/>
+                        <S d="2030221" t="65420162"/>
+                        <S d="7200000" t="67450383"/>
+                        <S d="3319509" t="74650383"/>
+                        <S d="7200000" t="77969892"/>
+                        <S d="1568760" t="85169892"/>
+                        <S d="7200000" r="2" t="86738652"/>
+                        <S d="3652227" t="108338652"/>
+                        <S d="7200000" r="5" t="111990879"/>
+                        <S d="933201" t="155190879"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet contentType="image" group="4" mimeType="image/jpeg">
+            <SegmentTemplate duration="7200000" media="images/224x126/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                <SegmentTimeline>
+                    <S d="7200000" r="1" t="0"/>
+                    <S d="4195577" t="14400000"/>
+                    <S d="7200000" t="18595577"/>
+                    <S d="3498688" t="25795577"/>
+                    <S d="7200000" r="1" t="29294265"/>
+                    <S d="1664048" t="43694265"/>
+                    <S d="7200000" t="45358313"/>
+                    <S d="5661849" t="52558313"/>
+                    <S d="7200000" t="58220162"/>
+                    <S d="2030221" t="65420162"/>
+                    <S d="7200000" t="67450383"/>
+                    <S d="3319509" t="74650383"/>
+                    <S d="7200000" t="77969892"/>
+                    <S d="1568760" t="85169892"/>
+                    <S d="7200000" r="2" t="86738652"/>
+                    <S d="3652227" t="108338652"/>
+                    <S d="7200000" r="5" t="111990879"/>
+                    <S d="933201" t="155190879"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation bandwidth="52263" height="756" id="thumbnails_2" width="1120">
+                <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
+                <SegmentTemplate duration="7200000" media="images/224x126/pckimage-$Number$.jpg" presentationTimeOffset="0" startNumber="0" timescale="24000">
+                    <SegmentTimeline>
+                        <S d="7200000" r="1" t="0"/>
+                        <S d="4195577" t="14400000"/>
+                        <S d="7200000" t="18595577"/>
+                        <S d="3498688" t="25795577"/>
+                        <S d="7200000" r="1" t="29294265"/>
+                        <S d="1664048" t="43694265"/>
+                        <S d="7200000" t="45358313"/>
+                        <S d="5661849" t="52558313"/>
+                        <S d="7200000" t="58220162"/>
+                        <S d="2030221" t="65420162"/>
+                        <S d="7200000" t="67450383"/>
+                        <S d="3319509" t="74650383"/>
+                        <S d="7200000" t="77969892"/>
+                        <S d="1568760" t="85169892"/>
+                        <S d="7200000" r="2" t="86738652"/>
+                        <S d="3652227" t="108338652"/>
+                        <S d="7200000" r="5" t="111990879"/>
+                        <S d="933201" t="155190879"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
