@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mediaPresentationDuration="PT2M28.607S" minBufferTime="PT6.01S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+  <Period duration="PT2M28.607S">
+    <AdaptationSet contentType="video" group="1" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" maxWidth="1920" maxHeight="1080" frameRate="24000/1001" par="16:9" sar="1:1">
+      <Accessibility schemeIdUri="urn:scte:dash:cc:cea-708:2015" value="1=lang:eng"/>
+      <Representation bandwidth="1837776" codecs="avc1.4D401F" height="540" id="video_1837776" scanType="progressive" width="960">
+        <SegmentTemplate timescale="24000" initialization="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/1850k_540_cmaf/_781090756_0.mp4" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/1850k_540_cmaf/_781090756_0_$Number$.mp4" startNumber="0">
+          <SegmentTimeline>
+            <S t="0" d="144144" r="23"/>
+            <S t="3459456" d="107107" r="0"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation bandwidth="2989765" codecs="avc1.4D401F" height="540" id="video_2989765" scanType="progressive" width="960">
+        <SegmentTemplate timescale="24000" initialization="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/3000k_540_cmaf/_781090756_3.mp4" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/3000k_540_cmaf/_781090756_3_$Number$.mp4" startNumber="0">
+          <SegmentTimeline>
+            <S t="0" d="144144" r="23"/>
+            <S t="3459456" d="107107" r="0"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation bandwidth="845191" codecs="avc1.4D401E" height="432" id="video_845191" scanType="progressive" width="768">
+        <SegmentTemplate timescale="24000" initialization="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/860k_432_cmaf/_781090756_4.mp4" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/860k_432_cmaf/_781090756_4_$Number$.mp4" startNumber="0">
+          <SegmentTimeline>
+            <S t="0" d="144144" r="23"/>
+            <S t="3459456" d="107107" r="0"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation bandwidth="337086" codecs="avc1.4D4015" height="288" id="video_337086" scanType="progressive" width="512">
+        <SegmentTemplate timescale="24000" initialization="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/350k_288_cmaf/_781090756_5.mp4" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/350k_288_cmaf/_781090756_5_$Number$.mp4" startNumber="0">
+          <SegmentTimeline>
+            <S t="0" d="144144" r="23"/>
+            <S t="3459456" d="107107" r="0"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet Label="English" contentType="audio" group="2" lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation audioSamplingRate="48000" bandwidth="99680" codecs="mp4a.40.2" id="audio_0_en_99680">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/layer_stereo/_781090756_6_0.mp4" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/layer_stereo/_781090756_6_0_$Number$.mp4" startNumber="0">
+          <SegmentTimeline>
+            <S t="0" d="287744" r="23"/>
+            <S t="6905856" d="230400" r="0"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet Label="English" contentType="text" group="3" lang="en" mimeType="text/vtt">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation bandwidth="1024" id="textstream_1024">
+        <BaseURL>_781090756_0_part0.webvtt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="image" mimeType="image/jpeg" group="4">
+      <SegmentTemplate timescale="1000" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/images/416x234/pckimage-$Number$.jpg" duration="300000" startNumber="0">
+        <SegmentTimeline>
+          <S t="0" d="148610" r="0"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="16686" id="thumbnails" width="2080" height="1404">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="image" mimeType="image/jpeg" group="4">
+      <SegmentTemplate timescale="1000" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/images/336x189/pckimage-$Number$.jpg" duration="300000" startNumber="0">
+        <SegmentTimeline>
+          <S t="0" d="148610" r="0"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="11958" id="thumbnails_1" width="1680" height="1134">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="image" mimeType="image/jpeg" group="4">
+      <SegmentTemplate timescale="1000" media="https://g005-sf-us-cmaf-prd-ak-a377.cdn.peacocktv.com/pub/global/522/968/pck_PCKN303365899/cmaf/1670892792806.1663/mpeg_6sec/images/224x126/pckimage-$Number$.jpg" duration="300000" startNumber="0">
+        <SegmentTimeline>
+          <S t="0" d="148610" r="0"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="6392" id="thumbnails_2" width="1120" height="756">
+        <EssentialProperty schemeIdUri="http://dashif.org/guidelines/thumbnail_tile" value="5x6"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
