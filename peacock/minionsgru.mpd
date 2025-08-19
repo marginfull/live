@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD mediaPresentationDuration="PT1H27M25.782S" minBufferTime="PT6.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
-    <BaseURL>https://g003-vod-us-cmaf-prd-fy.cdn.peacocktv.com/pck-vod/us-east-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-vod-2s-generic-cfd/pub/global/onm/JOk/PCK_1663774011815.6328_01/cmaf/mpeg_cenc/</BaseURL>
+    <BaseURL>https://g003-vod-us-cmaf-prd-cf.cdn.peacocktv.com/pub/global/onm/JOk/PCK_1663774011815.6328_01/cmaf/mpeg_cenc/</BaseURL>
     <Period duration="PT1H27M25.782S" id="_PT0S" start="PT0S">
         <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000" value="scte35"/>
         <AdaptationSet contentType="video" frameRate="24000/1001" group="1" maxHeight="1080" maxWidth="1920" mimeType="video/mp4" par="16:9" sar="1:1" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
@@ -31,6 +31,7 @@
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
+            
             <Representation bandwidth="2970131" codecs="avc1.4D401F" frameRate="24000/1001" height="540" id="video_2970131" scanType="progressive" width="960">
                 <SegmentTemplate initialization="3000k_540_cmaf/_780745364_3.mp4" media="3000k_540_cmaf/_780745364_3_$Number$.mp4" presentationTimeOffset="0" startNumber="0" timescale="24000">
                     <SegmentTimeline>
