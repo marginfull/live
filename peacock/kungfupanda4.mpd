@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD mediaPresentationDuration="PT1H33M38.78S" minBufferTime="PT6.01S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:scte35="urn:scte:scte35:2014:xml+bin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
-    <BaseURL>https://g003-vod-us-cmaf-prd-ak-a273.cdn.peacocktv.com/pub/global/O5e/D6M/PCK_1717534041423-BWHPg_01/cmaf/mpeg_cenc/</BaseURL>
+    <BaseURL>https://g003-vod-us-cmaf-prd-cf.cdn.peacocktv.com/pub/global/O5e/D6M/PCK_1717534041423-BWHPg_01/cmaf/mpeg_cenc/</BaseURL>
     <Period duration="PT1H33M38.78S">
         <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000" value="scte35">
             <Event duration="0" id="1" presentationTime="0">
